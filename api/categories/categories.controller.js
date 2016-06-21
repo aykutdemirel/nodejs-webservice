@@ -30,7 +30,7 @@ exports.categories_create = function (req, res) {
             IsValid: true,
             IsActive: true,
             ResetPasswordKey: '',
-            AdminId:
+            AdminId:''
         });
         
         var st = "";

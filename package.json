@@ -1,0 +1,35 @@
+{
+  "name": "nodejs-webservice",
+  "version": "1.0.0",
+  "description": "Its an example for nodejs webservices which using mongoDB",
+  "main": "app.js",
+  "dependencies": {
+    "basic-auth": "^1.0.4",
+    "body-parser": "^1.15.2",
+    "errorhandler": "^1.4.3",
+    "express": "^4.14.0",
+    "lodash": "^4.13.1",
+    "mongoose": "^4.5.1",
+    "multer": "^1.1.0",
+    "password-hash": "^1.2.2",
+    "time": "^0.11.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aykutdemirel/nodejs-webservice.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webservice"
+  ],
+  "author": "aykut demirel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aykutdemirel/nodejs-webservice/issues"
+  },
+  "homepage": "https://github.com/aykutdemirel/nodejs-webservice#readme"
+}
