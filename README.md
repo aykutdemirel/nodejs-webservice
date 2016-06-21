@@ -1,2 +1,2 @@
 # nodejs-webservice
-Its an example for nodejs webservices which using mongoDB
+Its an example for nodejs web services which using mongoDB
