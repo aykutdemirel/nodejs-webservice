@@ -1,7 +1,7 @@
 ﻿'use strict';
 
 var mongoose = require('mongoose');
-var uri = "mongodb://localhost:27017/EpubDB";
+var uri = "mongodb://178.62.12.99:27017/BookDB";
 
 var opt = {
     user: 'ayktdemirel',
