@@ -1,7 +1,7 @@
 ﻿'use strict';
 
 var mongoose = require('mongoose');
-var uri = "mongodb://178.62.12.99:27017/BookDB";
+var uri = "mongodb://192.168.1.104:27017/BookDB";
 
 var opt = {
     user: 'ayktdemirel',
