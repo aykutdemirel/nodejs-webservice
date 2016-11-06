@@ -7,19 +7,13 @@ var userSchema = mongoose.Schema({
     Password: String,
     Email: String,
     NameSurname: String,
-    Age: Number,
-    UserAuth: String,
-    KitapSepetiId: String,
-    ResetPasswordKey: String,
     CreatedDate: String,
     UpdatedDate: String,
+    Type: String,
     IsValid: Boolean,
     IsActive: Boolean,
-    FacebookId: String,
-    ImgUrl: String,
-    Gender: String
 });
 
-var User = mongoose.model('users', userSchema);
+var User = mongoose.model('tbl_users', userSchema);
 
 module.exports = User;
